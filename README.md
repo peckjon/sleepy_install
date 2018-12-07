@@ -1,1 +1,1 @@
-Wait for N minutes during install. No other features; use for testing time-dependent automation.
+Wait for 60 seconds during install. No other features; use for testing time-dependent automation.

@@ -3,6 +3,8 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+time.sleep(60)
+
 setuptools.setup(
     name="sleepy_install",
     version="0.0.1",
