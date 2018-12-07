@@ -1,3 +1,4 @@
+import time
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -13,10 +14,16 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/sampleproject",
     packages=[],
-    scripts=["wait.py"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: WTFPL",
         "Operating System :: OS Independent",
     ],
 )
+
+import time
+# wait for 1 minute
+t = 60
+print("Begin %d second wait..." % t)
+time.sleep(t)
+print("End wait.")
