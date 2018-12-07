@@ -1,7 +1,7 @@
 import time
 import setuptools
 
-t = 3
+t = 5
 
 setuptools.setup(
     name="sleepy_install",
@@ -11,7 +11,7 @@ setuptools.setup(
     description="Waits for [minor version number] minutes during package install. No other features; use for testing time-dependent automation.",
     long_description="Wait for several minutes during package installation. No other features; use for testing time-dependent automation. Minor version indicates wait time (e.g. for a 2 minute delay, use 0.2.*)",
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/peckjon/sleepy_install",
     packages=[],
     classifiers=[
         "Programming Language :: Python :: 3",
