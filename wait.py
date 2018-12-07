@@ -1,3 +1,6 @@
 import time
 # wait for 1 minute
-time.sleep(60)
+t = 60
+print("Begin %d second wait..." % t)
+time.sleep(t)
+print("End wait.")
