@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/sampleproject",
     packages=[],
-    scripts=[wait.py],
+    scripts=["wait.py"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: WTFPL",
