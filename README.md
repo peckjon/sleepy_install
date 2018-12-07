@@ -1,1 +1,3 @@
-Wait for 60 seconds during install. No other features; use for testing time-dependent automation.
+Wait for several minutes during package installation.
+
+No other features; use for testing time-dependent automation.
